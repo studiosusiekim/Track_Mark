@@ -1,0 +1,67 @@
+body {
+   font-family: 'Roboto', sans-serif;
+   ;
+}
+
+.container {
+    width: 80rem;
+    height: 46.25rem;
+    /* background: #D0AEA3; */
+    margin: 0 auto; 
+}
+
+.top_row, .routines {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(18px, 20px));
+    grid-gap:15px;
+    justify-content: center;
+}
+
+.routines {
+    margin-top: 25px;
+}
+
+.month, .routine {
+    grid-column:1 / span 3;
+    /* background: pink; */
+    border: .5px solid tomato;
+    padding: 0px 8px;
+    padding-top:6px;
+}
+
+.item, .month{
+    margin-top: 55px;
+}
+
+.month {
+    border: .5px solid black;
+
+}
+.item, .mark{
+    background: white;
+    border: .5px solid tomato;
+    width:1.1rem;
+    height:1rem; 
+    font-weight:300;
+    padding: 8px 7px;
+}
+
+.mark, .routine {
+    margin-top: 5px;
+   
+}
+
+.routine {
+    padding: 7px 4px;
+}
+
+.cross {
+    /* background: pink; */
+    padding:9%;
+    font-size: 1.6rem; 
+    border:none;
+
+    
+}
+
+
