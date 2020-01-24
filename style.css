@@ -1,29 +1,26 @@
 body {
    font-family: 'Roboto', sans-serif;
-   ;
 }
 
 .container {
     width: 80rem;
     height: 46.25rem;
-    /* background: #D0AEA3; */
     margin: 0 auto; 
 }
 
-.top_row, .routines {
+.top_row, #routines {
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(18px, 20px));
     grid-gap:15px;
     justify-content: center;
 }
 
-.routines {
+#routines {
     margin-top: 25px;
 }
 
 .month, .routine {
     grid-column:1 / span 3;
-    /* background: pink; */
     border: .5px solid tomato;
     padding: 0px 8px;
     padding-top:6px;
@@ -47,8 +44,7 @@ body {
 }
 
 .mark, .routine {
-    margin-top: 5px;
-   
+    margin-top: 5px; 
 }
 
 .routine {
@@ -56,12 +52,9 @@ body {
 }
 
 .cross {
-    /* background: pink; */
     padding:9%;
     font-size: 1.6rem; 
-    border:none;
-
-    
+    border:none; 
 }
 
 
